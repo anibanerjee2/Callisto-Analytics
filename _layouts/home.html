@@ -6,7 +6,7 @@ bodyClass: "page-home"
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+      <div class="col-12 col-md-7 col-lg-5 order-2 order-md-1">
         {{ content }}
         {% if page.show_call_box %}
           {% include call.html show_button=true %}
@@ -23,6 +23,7 @@ bodyClass: "page-home"
 
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
+    <h2 class="strip-title">Services</h2>
     <div class="row justify-content-start">
       {% assign limit = site.home.limit_services | default: 6 %}
       {% for service in site.services limit: limit %}
@@ -49,8 +50,11 @@ bodyClass: "page-home"
 {% if site.data.features %}
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <h2 class="strip-title">Our Platform</h2>
+    <h3 class="strip-subtitle">conferenceof.app: A “Batteries-Included” AI Toolkit</h3>
+    <p class="strip-description">We bring forecasting, optimization, and machine learning together so you can solve real problems without the guesswork.</p>
     <div class="row justify-content-center">
-
+      <h4>Key Differentiators</h4>
       {% for feature in site.data.features %}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature">
@@ -64,6 +68,25 @@ bodyClass: "page-home"
       {% endfor %}
 
     </div>
+  </div>
+</div>
+{% endif %}
+{% if site.data.technologies %}
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <h2 class="strip-title">Technology Stack</h2>
+    <h3 class="strip-subtitle">Powered by AI Leaders</h3>
+    <div class="row justify-content-center">
+      {% for tech in site.data.technologies %}
+        <div class="tech">
+            <h2 class="tech-title">{{ tech.title }}</h2>
+            {% if tech.description %}
+              <div class="tech-description">{{ tech.description }}</div>
+            {% endif %}
+        </div>
+      {% endfor %}
+      </div>
+    <h3 class="tech-subtitle">Straightforward integrations, zero fluff—ready to use “as-is” or adapt for specialized needs.</h3>
   </div>
 </div>
 {% endif %}

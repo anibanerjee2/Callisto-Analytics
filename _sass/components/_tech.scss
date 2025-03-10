@@ -1,0 +1,19 @@
+.tech {
+  height: 100%;
+  border: 1px solid $white-offset;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  .tech-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .tech-description {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+    margin-top: auto;
+  }
+}

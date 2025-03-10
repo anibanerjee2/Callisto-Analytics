@@ -54,3 +54,37 @@
 .strip-bg-cover {
   background-size: cover;
 }
+
+h2.strip-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: $primary;
+}
+
+h3.strip-subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: $primary;
+}
+
+h3.tech-subtitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+p.strip-description {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 40px;
+  color: $black;
+}
+
+h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: $black;
+}
