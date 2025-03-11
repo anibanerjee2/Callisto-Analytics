@@ -1,15 +1,14 @@
 .tech {
   height: 100%;
-  border: 1px solid $white-offset;
-  border-radius: 10px;
+  min-width: 15rem;
   padding: 20px;
-  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   .tech-title {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 10px;
+    letter-spacing: 0.05ch;
   }
   .tech-description {
     font-size: 1.1rem;

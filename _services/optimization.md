@@ -4,7 +4,7 @@ date: 2019-01-28T15:15:26+10:00
 weight: 2
 ---
 
-Our optimization expertise spans the entire supply chain spectrum, transforming complex constraints into strategic advantages:
+Transform complex constraints into strategic advantages using sophisticated and scalable models and algorithms.
 
 * Master planning optimization that balances capacity, inventory, and service levels
 * Detailed production scheduling that maximizes throughput while minimizing costs

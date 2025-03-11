@@ -1,0 +1,17 @@
+.page-services {
+  .service-content {
+    > p {
+        font-size: 1.4rem;
+        line-height: 1.4;
+        margin-bottom: 40px;
+        font-weight: regular;
+        color: rgb(104, 104, 104);
+    }
+    li {
+        font-size: 1.1rem;
+        line-height: 1.4;
+        color: rgb(104, 104, 104);
+        list-style-type: decimal;
+    }
+  }
+}

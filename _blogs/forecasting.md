@@ -1,11 +1,11 @@
 ---
-title: "Forecasting"
+title: "Dummy blog"
 date: 2018-11-18T12:33:46+10:00
 weight: 1
 ---
 
 
-Combine Machine learning and Statistical models to deliver precision forecasting tailored to your industry.
+This is a dummy blog page
 
 <!--more-->
 
