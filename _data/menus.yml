@@ -5,7 +5,7 @@ main:
   - name: "About"
     url: "/about/"
     weight: 2
-  - name: "Blogs"
+  - name: "Blog"
     url: "/blogs/"
     weight: 3
 
@@ -19,7 +19,7 @@ footer:
   - name: "About"
     url: "/about/"
     weight: 3
-  - name: "Blogs"
+  - name: "Blog"
     url: "/blogs/"
     weight: 4
     

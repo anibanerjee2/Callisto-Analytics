@@ -11,5 +11,4 @@ show_call_box: true
 # Callisto Analytics
 ## Supply Chain Decision Intelligence
 
-### Tailored Intelligence for Your Toughest Challenges
 Callisto delivers specialized forecasting, optimization, and AI solutions engineered for your unique supply chain challenges.
