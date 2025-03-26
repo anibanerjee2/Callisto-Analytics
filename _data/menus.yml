@@ -2,12 +2,12 @@ main:
   - name: "Services"
     url: "/services/"
     weight: 1
-  - name: "About"
-    url: "/about/"
-    weight: 2
-  - name: "Blog"
-    url: "/blogs/"
-    weight: 3
+  # - name: "About"
+  #   url: "/about/"
+  #   weight: 2
+  # - name: "Blog"
+  #   url: "/blogs/"
+    # weight: 3
 
 footer:
   - name: "Home"
@@ -16,10 +16,10 @@ footer:
   - name: "Services"
     url: "/services/"
     weight: 2
-  - name: "About"
-    url: "/about/"
-    weight: 3
-  - name: "Blog"
-    url: "/blogs/"
-    weight: 4
+  # - name: "About"
+  #   url: "/about/"
+  #   weight: 3
+  # - name: "Blog"
+  #   url: "/blogs/"
+  #   weight: 4
     

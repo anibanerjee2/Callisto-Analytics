@@ -1,17 +1,18 @@
 [
   {
     "title": "LLMs",
-    "description": "Not just software. We partner with you to refine processes, pilot quickly, and keep improving."
+    "description": "Agentic workflows using the latest LLMs from OpenAI, Anthropic and others"
   },
   {
     "title": "Optimization",
-    "description": "Plug into existing infrastructure, sync everything in one place, and eliminate data silos."
+    "description": "Industry leading solver packages (e.g. Hexaly, Gurobi) or develop custom heuristics"
   },
   {
     "title": "Forecasting",
-    "description": "Prove results at Level 1 or 2, then move up to advanced solutions at your own pace."
+    "description": "Industry specific techniques, coupled with models from Nixtla, Statsforecast and others"
   },
   {
-    "title": "Custom AI/ML Models"
+    "title": "Custom Models",
+    "description": "For solving complex problems in manufacturing, retail, logistics & supply chains"
   }
 ]

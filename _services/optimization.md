@@ -10,4 +10,3 @@ Transform complex constraints into strategic advantages using sophisticated and 
 * Detailed production scheduling that maximizes throughput while minimizing costs
 * Logistics optimization including various vehicle routing challenges (multi-stop, time-windowed, capacity-constrained)
 * Network design and flow optimization for strategic infrastructure decisions
-* Inventory positioning and management to reduce carrying costs while maintaining service levels
